@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form
+      action="https://www.apple.com/"
+      autocomplete="on"
+      autocapitalize="on"
+      autocorrect="on"
+      autofocus="on"
+    >
+      <label for="username">Name</label><br />
+      <input
+        name="username"
+        id="username"
+        type="text"
+        required
+        placeholder="Eg:Gowthami"
+      /><br />
+      <label for="emailId">email</label><br />
+      <input
+        name="emailId"
+        id="emailId"
+        type="email"
+        required
+        placeholder="Eg:example@gmail.com"
+      /><br />
+      <label for="password">password</label><br />
+      <input
+        name="password"
+        id="password"
+        type="password"
+        required
+      /><br /><br />
+      <!-- <input style="text-align: center" type="submit" /> -->
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
